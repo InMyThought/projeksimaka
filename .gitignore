@@ -1,0 +1,19 @@
+# --- Dependency Directories (JANGAN DI UPLOAD) ---
+node_modules/
+frontend/NOAH/node_modules/
+package-lock.json
+
+# --- Python & Django (JANGAN DI UPLOAD) ---
+backend/backend_simaka/env/
+venv/
+env/
+*.pyc
+__pycache__/
+db.sqlite3
+.env
+
+# --- Next.js Build ---
+.next/
+out/
+build/
+.DS_Store
