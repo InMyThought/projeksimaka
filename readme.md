@@ -143,7 +143,7 @@ Menambah Library Python: Jika Anda menginstall library baru (misal: pip install 
 
 ```Bash
 cd backend/backend_simaka
-pip freeze > simaka_backend/requirements.txt
+pip freeze > requirements.txt
 ```
 Masalah Script di Windows: Jika saat aktivasi env muncul error "running scripts is disabled on this system", buka PowerShell sebagai Administrator dan jalankan:
 
