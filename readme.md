@@ -105,8 +105,8 @@ backend\backend_simaka\venv\Scripts\activate
 ```
 Windows (GitBash):
 
-```DOS
-source backend\backend_simaka\venv\Scripts\activate
+```bash
+source backend/backend_simaka/venv/Scripts/activate
 ```
 Mac / Linux:
 
