@@ -1,5 +1,5 @@
 {
-  "name": "simaka-fullstack",
+  "name": "projek-simaka",
   "version": "1.0.0",
   "scripts": {
     "install-all": "npm run install:fe && npm run install:be",
