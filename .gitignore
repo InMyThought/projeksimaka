@@ -1,14 +1,25 @@
-# --- Dependency Directories (JANGAN DI UPLOAD) ---
+# --- Dependency Directories (Node.js) ---
 node_modules/
 frontend/NOAH/node_modules/
-package-lock.json
+.npm
+# package-lock.json sebaiknya DI-UPLOAD agar versi tim sama. 
+# Jika kamu memaksa tidak upload, biarkan baris di bawah ini ada.
+# package-lock.json 
 
-# --- Python & Django (JANGAN DI UPLOAD) ---
+# --- Python & Django (Virtual Env & Cache) ---
+# Ini yang paling penting agar venv tidak ter-upload:
+backend/backend_simaka/venv/
 backend/backend_simaka/env/
 venv/
 env/
-*.pyc
+.venv/
+
+# Byte-compiled / optimized / DLL files
 __pycache__/
+*.py[cod]
+*$py.class
+
+# Django local settings & db
 db.sqlite3
 .env
 
@@ -16,4 +27,8 @@ db.sqlite3
 .next/
 out/
 build/
+dist/
+
+# --- System Files ---
 .DS_Store
+Thumbs.db
