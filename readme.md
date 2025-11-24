@@ -48,11 +48,18 @@ Windows (PowerShell):
 ```PowerShell
 .\venv\Scripts\Activate.ps1
 ```
+
+Windows (GitBash):
+```
+source venv/Scripts/activate
+```
+
 Mac / Linux:
 
 ```Bash
 source venv/bin/activate
 ```
+
 (Pastikan muncul tanda (venv) di terminal Anda)
 
 ### Install Dependencies Python:
