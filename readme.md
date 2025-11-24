@@ -65,7 +65,7 @@ source venv/bin/activate
 ### Install Dependencies Python:
 
 ```Bash
-pip install -r simaka_backend/requirements.txt
+pip install -r requirements.txt
 ```
 
 Migrasi Database (Opsional/Jika Perlu):
@@ -102,6 +102,11 @@ Windows:
 
 ```DOS
 backend\backend_simaka\venv\Scripts\activate
+```
+Windows (GitBash):
+
+```DOS
+source backend\backend_simaka\venv\Scripts\activate
 ```
 Mac / Linux:
 
