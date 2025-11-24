@@ -163,4 +163,7 @@ Daftar command yang tersedia di package.json:
 
 ```npm run frontend```: Menjalankan server Next.js saja.
 
-```npm run install-all```: Menginstall seluruh dependency (Frontend & Backend) sekaligus (Wajib venv aktif).
+```bash 
+npm run install-all
+```
+: Menginstall seluruh dependency (Frontend & Backend) sekaligus (Wajib venv aktif).
