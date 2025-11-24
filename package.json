@@ -2,6 +2,7 @@
   "name": "projek-simaka",
   "version": "1.0.0",
   "scripts": {
+    "install-venv":"python -m venv backend/backend_simaka/venv",
     "install-all": "npm run install:fe && npm run install:be",
     "install:fe": "cd frontend/NOAH && npm install",
     "install:be": "cd backend/backend_simaka && pip install -r requirements.txt",
