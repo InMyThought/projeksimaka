@@ -18,7 +18,7 @@ Ikuti langkah-langkah ini **hanya satu kali** saat pertama kali mengunduh proyek
 
 ### 1. Clone Repository
 ```bash
-git clone <url-repository-anda>
+git clone https://github.com/InMyThought/projeksimaka.git
 cd projeksimaka
 ```
 ### 2. Setup Backend (Django)
